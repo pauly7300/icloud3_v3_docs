@@ -6,7 +6,7 @@
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
-### Introduction - test slides -t3
+### Introduction - test slides -m1
 
 
 
@@ -32,6 +32,7 @@ Right Side 30
 
 End slides - 70%/30%
 
+![readme intro](images/cf_menu_1.jpg)
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:
 

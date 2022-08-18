@@ -6,7 +6,24 @@
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
-### Introduction
+### Introduction - test slides
+
+!-- slide:break -->
+
+Left Side
+
+#
+Right Side
+
+#
+End Slides - 50%
+!-- slide:break-70 -->
+Left Side 70
+#
+Right Side 30
+#
+End slides - 70%/30%
+
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:
 
@@ -27,21 +44,6 @@ Below are some sample Lovelace screenshots showing how iCloud3 information can b
 
 ![readme intro](images/readme.jpg)
 
-!-- slide:break -->
-
-Left Side
-
-#
-Right Side
-
-#
-End Slides - 50%
-!-- slide:break-70 -->
-Left Side 70
-#
-Right Side 30
-#
-End slides - 70%/30%
 
 
 ### What's different

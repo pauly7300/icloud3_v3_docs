@@ -13,15 +13,20 @@
 Left Side
 
 #
+
 Right Side
 
 #
+
 End Slides - 50%
 <!-- slide:break-70 -->
 Left Side 70
 #
+
 Right Side 30
+
 #
+
 End slides - 70%/30%
 
 

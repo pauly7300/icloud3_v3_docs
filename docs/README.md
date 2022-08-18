@@ -8,7 +8,7 @@
 
 ### Introduction - test slides
 
-!-- slide:break -->
+<!-- slide:break -->
 
 Left Side
 
@@ -17,7 +17,7 @@ Right Side
 
 #
 End Slides - 50%
-!-- slide:break-70 -->
+<!-- slide:break-70 -->
 Left Side 70
 #
 Right Side 30

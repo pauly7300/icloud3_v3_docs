@@ -8,10 +8,11 @@
 
 ### Introduction - test slides -t3
 
-<!-- slide:break -->
+
 
 Left Side
 
+<!-- slide:break -->
 #
 
 Right Side
@@ -19,10 +20,12 @@ Right Side
 #
 
 End Slides - 50%
-<!-- slide:break-70 -->
-Left Side 70
-#
 
+
+Left Side 70
+
+#
+<!-- slide:break-70 -->
 Right Side 30
 
 #

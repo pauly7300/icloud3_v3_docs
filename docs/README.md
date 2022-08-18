@@ -9,29 +9,6 @@
 ### Introduction - test slides -m1
 
 
-
-Left Side
-
-<!-- slide:break -->
-#
-
-Right Side
-
-#
-
-End Slides - 50%
-
-
-Left Side 70
-
-#
-<!-- slide:break-70 -->
-Right Side 30
-
-#
-
-End slides - 70%/30%
-
 ![readme intro](images/cf_menu_1.jpg)
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:

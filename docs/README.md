@@ -6,7 +6,7 @@
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
-### Introduction - test slides -m2
+### Introduction - test slides -t3
 
 
 ![readme intro](images/cf_menu_1.jpg)
@@ -35,6 +35,23 @@ Below are some sample Lovelace screenshots showing how iCloud3 information can b
 Right Side
 <!-- slide:break -->
 #
+
+<!-- tabs:start -->
+
+#### **English**
+
+Hello!
+
+#### **French**
+
+Bonjour!
+
+#### **Italian**
+
+Ciao!
+
+<!-- tabs:end -->
+
 ### What's different
 
 iCloud3 has many features not in the base iCloud device_tracker that is part of Home Assistant. It exposes many new attributes, provides many new features, is based on enhanced route tracking methods, is much more accurate, and includes additional service calls. Lets look at the differences.

@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="./theme-mods.css">
   <link rel="stylesheet" href="./theme-toc.css">
   <link rel="stylesheet" href="./slides.css">
-  <!-- 08/18/2022 v3 -->
+  
+  <!-- 08/18/2022 v3.d01 -->
 </head>
 <body>
   <div id="app"></div>
@@ -30,17 +31,27 @@
         scope: '.markdown-section',
         headings: 'h1, h2, h3, h4, h5, h6',
       },
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
     }
     
   </script>
+  
   <script src="./docsify-main-code.js"></script>
   <script src="./docsify-copy-code.js"></script>
   <script src="./docsify-toc.js"></script>
   <script src="./docsify-slides.min.js"></script>
+  <script src="./docsify-tabs.min.js"></script>
+  
+  <!--<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>-->
   <!--script src="//unpkg.com/docsify/lib/docsify.min.js"></script>-->
   <!--<script src="//unpkg.com/docsify-copy-code"></script>-->
   <!--<script src="//unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>-->
-
   <!--<script src="//unpkg.com/docsify-plugin-toc"></script>-->
 </body>
 </html>

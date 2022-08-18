@@ -1,7 +1,7 @@
 # iCloud3  Device Tracker Custom Component
 
-[![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.3.5-blue.svg)](https://github.com/gcobb321/icloud3)
-[![Released](https://img.shields.io/badge/Released-February,_2021-blue.svg)](https://github.com/gcobb321/icloud3)
+[![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.4.1-blue.svg)](https://github.com/gcobb321/icloud3)
+[![Released](https://img.shields.io/badge/Released-April,_2021-blue.svg)](https://github.com/gcobb321/icloud3)
 [![ProjectStage](https://img.shields.io/badge/Project_Stage-General_Availability-red.svg)](https://github.com/gcobb321/icloud3)
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
@@ -26,6 +26,20 @@ Below are some sample Lovelace screenshots showing how iCloud3 information can b
 
 
 ![readme intro](images/readme.jpg)
+
+<!-- slide:break -->
+Left side
+#
+Right Side
+#
+End Slides
+
+<!-- slide:break-75 -->
+Left side
+#
+Right Side
+#
+End Slides
 
 
 ### What's different

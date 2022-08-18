@@ -27,6 +27,22 @@ Below are some sample Lovelace screenshots showing how iCloud3 information can b
 
 ![readme intro](images/readme.jpg)
 
+!-- slide:break -->
+
+Left Side
+
+#
+Right Side
+
+#
+End Slides - 50%
+!-- slide:break-70 -->
+Left Side 70
+#
+Right Side 30
+#
+End slides - 70%/30%
+
 
 ### What's different
 

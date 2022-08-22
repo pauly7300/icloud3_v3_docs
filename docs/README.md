@@ -6,20 +6,15 @@
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
+<img align="left" src="images/cf_menu_1.jpg">
+
+At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu
+
+ccc-ddd-eee-fff-ggg-hh
+
+<br class='clear' />
+
 ### Introduction - test slides -t3
-
-#
-![readme intro](images/cf_menu_1.jpg)
-
-<!-- slide:break -->
-#
-right side text 1-ggg
-<br>
-<!-- slide:break -->
-#
-
-ccc-ddd-eee-fff-ggg
-
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:
 
@@ -37,30 +32,6 @@ Below are some sample Lovelace screenshots showing how iCloud3 information can b
 
 *Gary Cobb, aka GeeksterGary*
 
-
-![readme intro](images/readme.jpg)
-
-<!-- xslide:break -->
-#
-Right Side
-<!-- xslide:break -->
-#
-
-<!-- tabs:start -->
-
-#### **English**
-
-Hello!
-
-#### **French**
-
-Bonjour!
-
-#### **Italian**
-
-Ciao!
-
-<!-- tabs:end -->
 
 ### What's different
 

@@ -156,5 +156,5 @@ body{
 --docsifytabs-tab-highlight-color: purple;
 }
 
-
+br.clear { clear: both; } 
 

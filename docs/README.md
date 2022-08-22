@@ -16,7 +16,7 @@ right side text
 
 <!-- slide:break -->
 #
-
+ccc-ddd
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:
 
 * Connect with the iCloud Location Services using Find-my-Friends and Find-my-Phone tracking methods.

@@ -7,13 +7,15 @@
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
 <img align="left" src="images/cf_menu_1.jpg">
-
 At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu
 
 ccc-ddd-eee-fff-ggg-hh
-
 <br class='clear' />
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img align="left" src="images/cf_menu_2.jpg">
+menu 2
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### Introduction - test slides -t3
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:

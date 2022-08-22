@@ -12,7 +12,7 @@ At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu
 ccc-ddd-eee-fff-ggg-hh
 <br class='clear' />
 
-<br><br><br><br><br><br>
+<br>
 <img align="left" src="images/cf_menu_2.jpg">
 menu 2
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

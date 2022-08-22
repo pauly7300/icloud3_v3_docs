@@ -10,16 +10,15 @@
 
 #
 ![readme intro](images/cf_menu_1.jpg)
+
 <!-- slide:break -->
 #
 right side text 1
-```
 <!-- slide:break -->
-```
 #
 
-ccc-ddd-eee
-#
+ccc-ddd-eee-fff
+
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:
 
@@ -40,10 +39,10 @@ Below are some sample Lovelace screenshots showing how iCloud3 information can b
 
 ![readme intro](images/readme.jpg)
 
-<!-- slide:break -->
+<!-- xslide:break -->
 #
 Right Side
-<!-- slide:break -->
+<!-- xslide:break -->
 #
 
 <!-- tabs:start -->

@@ -6,7 +6,7 @@
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
-<img align="left" margin-left="6px" src="images/cf_menu_1.jpg">
+<img align="left" margin-right="6px" src="images/cf_menu_1.jpg">
 At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu
 
 ccc-ddd-eee-fff-ggg-hh

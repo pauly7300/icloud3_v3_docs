@@ -13,11 +13,12 @@
 
 <!-- slide:break -->
 #
-right side text 1
+right side text 1-ggg
+<br>
 <!-- slide:break -->
 #
 
-ccc-ddd-eee-fff
+ccc-ddd-eee-fff-ggg
 
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:

@@ -1,22 +1,12 @@
 # iCloud3  Device Tracker Custom Component
 
-[![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.4.1-blue.svg)](https://github.com/gcobb321/icloud3)
-[![Released](https://img.shields.io/badge/Released-April,_2021-blue.svg)](https://github.com/gcobb321/icloud3)
+[![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.4.7-blue.svg)](https://github.com/gcobb321/icloud3)
+[![Released](https://img.shields.io/badge/Released-December,_2021-blue.svg)](https://github.com/gcobb321/icloud3)
 [![ProjectStage](https://img.shields.io/badge/Project_Stage-General_Availability-red.svg)](https://github.com/gcobb321/icloud3)
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/gcobb321/icloud3)
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/gcobb321/icloud3)
 
-<img align="left" margin-right="6px" src="images/cf_menu_1.jpg">
-At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu
-
-ccc-ddd-eee-fff-ggg-hh
-<br class='clear' />
-
-<br>
-<img align="left" src="images/cf_menu_2.jpg">
-menu 2
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-### Introduction - test slides -t3
+### Introduction
 
 iCloud3 is an improved version of the *iCloud device_tracker integration* installed with Home Assistant.  It is designed to:
 
@@ -33,6 +23,9 @@ iCloud3 is an improved version of the *iCloud device_tracker integration* instal
 Below are some sample Lovelace screenshots showing how iCloud3 information can be displayed (see *ui-lovelace-icloud3.yaml* in the *sample_automations_scripts* directory of the iCloud3 repository). Example configuration files for sensors, switches, badges, automations and scripts are also found in the *sample_automations_scripts* directory that report location information and device status, along with running automations (opening a garage door) when arriving home. Other uses (security, lighting, heating & cooling control, etc.) can be added to the automations to meet your needs.
 
 *Gary Cobb, aka GeeksterGary*
+
+
+![readme intro](images/readme.jpg)
 
 
 ### What's different

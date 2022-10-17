@@ -149,8 +149,8 @@ body{
 .pagination-item-title {
     font-size: 1.25em;
 }
-.pagination-item a{
-    margin-bottom: 30px;
+.pagination-item {
+    margin-bottom: 2.5em;
 }
 .docsify-pagination-container {
 /*.pagination-container {*/
@@ -162,8 +162,10 @@ body{
   margin-bottom: 1.25em;*/
 }
 .pagination-item-label svg {
-  color: #33A9F4;
-  height: 1.5em;
+  /*color: #33A9F4;*/
+  color: #0366D6;
+  font-size: 12px;
+  height: 2em;
   stroke-linecap: square;
   stroke-linejoin: square;
   stroke-width: 3px;

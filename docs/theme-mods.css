@@ -8,6 +8,7 @@ body{
 }
 .content {
    padding-top: 10px;
+   padding-bottom: 10px;
    left: 250px;
 }
 .sidebar::-webkit-scrollbar {

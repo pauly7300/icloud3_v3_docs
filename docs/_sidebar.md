@@ -28,8 +28,8 @@
    - [Introducing the iCloud3 Configurator](chapters/1.3-introducing-the-configurator.md)
    - [Device_tracker and Sensor Entities](chapters/1.4-device-tracker-sensor-names.md)
    - [Apple iCloud Account](chapters/1.5-apple-icloud-acct.md)
-   - [Apple iCloud Accoount Authentication](chapters/1.6-apple-icloud-acct-authentication.md)
- - [Installing and Configuring the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
+     - [Authentication](chapters/1.6-apple-icloud-acct-authentication.md)
+ - [Installing the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 - Customizing iCloud3 Operations
  - [2.1 Configuration Parameters](chapters/2.1-config-parms.md)
  - [2.2 Attributes](chapters/2.2-attributes.md)

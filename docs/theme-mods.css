@@ -155,9 +155,10 @@ body{
 .docsify-pagination-container {
 /*.pagination-container {*/
   color: #33A9F4;
-  border-width: 5px;
+  /*border-width: 5px;*/
   border-color: red;
-  margin-bottom: 10px;
+  margin-top: -1.25em;
+  margin-bottom: 1.25em;
 }
 .pagination-item-label svg {
   color: #33A9F4;

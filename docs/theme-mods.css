@@ -80,7 +80,6 @@ body{
 .markdown-section h6 {
     margin: 20px 0 -20px 0;
 }
-
 .markdown-section p.tip {
     background-color: #FFF6F4;
 }
@@ -88,14 +87,12 @@ body{
     margin: 20px 0 -20px 0;
     color: dodgerblue;
 }
-
 .markdown-section blockquote p {
     font-weight: 450;
     margin: 20px 0 -20px 0;
     font-style: italic;
     color: dodgerblue;
 }
-
 .markdown-section pre {
     -moz-osx-font-smoothing: initial;
     -webkit-font-smoothing: initial;
@@ -106,19 +103,16 @@ body{
     position: relative;
     word-wrap: normal;
 }
-
 .markdown-section pre>code {
     font-style: normal;
     margin: 6px 0;
     padding: 4px 0;
 }
-
 .markdown-section code {
     color: black;
     font-weight: 450;
     background-color: #f2f2f2;
 }
-
 .markdown-section em {
     color: DarkBlue;
     margin: 0 .2rem 0 .1rem;
@@ -158,8 +152,8 @@ body{
 .pagination-item a{
     margin-bottom: 10px;
 }
-/*.docsify-pagination-container {*/
-.pagination-container {
+.docsify-pagination-container {
+/*.pagination-container {*/
   color: #33A9F4;
   border-width: 5px;
   border-color: red;

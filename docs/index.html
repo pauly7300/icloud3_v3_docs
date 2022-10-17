@@ -32,15 +32,20 @@
       pagination: {
         previousText: 'Previous',
         nextText: 'Next',
-        crossChapter: false,
-        crossChapterText: false,
+        crossChapter: true,
+        crossChapterText: true,
       },
+      plugins: [
+          EditOnGithubPlugin.create('https://github.com/gcobb321/icloud3_v3_docs/tree/main/docs/chapters')
+        ]
+      }
     }
     
   </script>
   <script src="./docsify-main-code.js"></script>
   <script src="./docsify-copy-code.js"></script>
   <script src="./docsify-toc.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <!--script src="//unpkg.com/docsify/lib/docsify.min.js"></script>-->
   <!--<script src="//unpkg.com/docsify-copy-code"></script>-->
   <!--<script src="//unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>-->

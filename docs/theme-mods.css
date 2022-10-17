@@ -7,8 +7,10 @@ body{
     font-size: 14px;
 }
 .content {
-   padding-top: 10px;
-   padding-bottom: 10px;
+   #padding-top: 10px;
+   #padding-bottom: 10px;
+   padding: 10px 0px;
+   margin: 10pm 0px;
    left: 250px;
 }
 .sidebar::-webkit-scrollbar {
@@ -150,4 +152,18 @@ body{
 .button-base:hover {
     background: #faebe1;
     text-decoration: none;
+}
+
+.docsify-pagination-container {
+  color: #33A9F4;
+  border-width: 5px;
+  border-color: red;
+  margin-bottom: 10px;
+}
+.pagination-item-label svg {
+  color: #33A9F4;
+  height: 1.5em;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+  stroke-width: 3px;
 }

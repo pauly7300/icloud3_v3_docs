@@ -9,6 +9,7 @@
       </td>
     </tr>
   </table>
+  <!--
   <table style="padding:  0  10px  0 40px;">
     <tr>
       <td>
@@ -16,6 +17,7 @@
       </td>
     </tr>
   </table>
+  -->
 </nav>
 
 - What's New and What Changed

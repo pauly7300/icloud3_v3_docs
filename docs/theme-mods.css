@@ -171,12 +171,13 @@ body{
   /*color: #33A9F4;*/
   color: #0366D6;
   font-size: 1.25em;
-  /*height: 2em;*/
+  /*height: 2em;
   stroke-linecap: square;
   stroke-linejoin: square;
-  stroke-width: 3px;
+  stroke-width: 3px;*/
 }
-.pagination-item-label svg {
+
+.xpagination-item-label svg {
   /*color: #33A9F4;*/
   color: #0366D6;
   /*font-size: 1.25em;*/

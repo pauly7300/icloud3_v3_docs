@@ -178,21 +178,22 @@ function styleInject(css, ref) {
 }
 
 var css = `
-    .docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:5em 0 1em;border-top:1px solid rgba(0,0,0,.07)}
-    .pagination-item{margin-top:2.5em}
+    .docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:1em 0 1em 0;;border-top:1px solid #33A9F4;color: #0366D6;}
+    .pagination-item{margin:0 0 2.25em 0;}
     .pagination-item a,.pagination-item a:hover{text-decoration:none}
     .pagination-item a{color:currentColor}
     .pagination-item a:hover .pagination-item-title{text-decoration:underline}
     .pagination-item:not(:last-child) a .pagination-item-label,.pagination-item:not(:last-child) a .pagination-item-subtitle,.pagination-item:not(:last-child) a .pagination-item-title{opacity:.3;transition:all .2s}
     .pagination-item:last-child .pagination-item-label,.pagination-item:not(:last-child) a:hover .pagination-item-label{opacity:.6}
     .pagination-item:not(:last-child) a:hover .pagination-item-title{opacity:1}
-    .pagination-item-label{font-size:.8em}
+    .pagination-item-label{color:#0366D6;font-size:1.25em}
     .pagination-item-label>*{line-height:1;vertical-align:middle}
-    .pagination-item-label svg{height:.8em;width:auto;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1px}
-    .pagination-item--next{margin-left:auto;text-align:right}
+    .pagination-item-label svg{height:.8em;width:auto;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1px;color:#0366D6;}
+    .pagination-item--next{margin:0 0 2.25em 0;text-align:right}
     .pagination-item--next svg{margin-left:.5em}
+    .pagination-item--previous{margin:0 0 2.25em 0;text-align:left}
     .pagination-item--previous svg{margin-right:.5em}
-    .pagination-item-title{font-size:1.6em}
+    .pagination-item-title{font-size:1.25em}
     .pagination-item-subtitle{text-transform:uppercase;opacity:.3};
     `
 styleInject(css);

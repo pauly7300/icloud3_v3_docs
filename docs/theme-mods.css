@@ -145,44 +145,4 @@ body{
     background: #faebe1;
     text-decoration: none;
 }
-.docsify-pagination-container {
-/*.pagination-container {*/
-  /*color: #33A9F4;*/
-  color: #0366D6;
-  margin: 1em 0 1em 0;
-  border-top: 1px solid #33A9F4;
-  /*border-width: 5px;
-  border-color: red;
-  margin-top: -1.25em;
-  margin-bottom: 1.25em;*/
-}
-.pagination-item-title {
-    font-size: 1.25em;
-}
-.pagination-item {
-    /*margin-bottom: 2.5em;*/
-    margin: 0 0 2.25em 0;
-}
-.pagination-item.pagination-item--next, 
-.pagination-item.pagination-item--previous {
-    margin: 0 0 2.25em 0;
-}
-.pagination-item-label {
-  /*color: #33A9F4;*/
-  color: #0366D6;
-  font-size: 1.25em;
-  /*height: 2em;
-  stroke-linecap: square;
-  stroke-linejoin: square;
-  stroke-width: 3px;*/
-}
 
-.pagination-item-label svg {
-  /*color: #33A9F4;*/
-  color: #0366D6;
-  /*font-size: 1.25em;*/
-  /*height: 2em;*/
-  stroke-linecap: square;
-  stroke-linejoin: square;
-  stroke-width: 3px;
-}

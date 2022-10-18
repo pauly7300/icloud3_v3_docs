@@ -177,7 +177,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css = 
+var css = \
    ".docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:5em 0 1em;border-top:1px solid rgba(0,0,0,.07)}
     .pagination-item{margin-top:2.5em}
     .pagination-item a,.pagination-item a:hover{text-decoration:none}

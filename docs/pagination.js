@@ -183,7 +183,7 @@ var css = `
     .pagination-item a,.pagination-item a:hover{text-decoration:none}
     .pagination-item a{color:currentColor}
     .pagination-item a:hover .pagination-item-title{text-decoration:underline}
-    .pagination-item:not(:last-child) a .pagination-item-label,.pagination-item:not(:last-child) a .pagination-item-subtitle,.pagination-item:not(:last-child) a .pagination-item-title{opacity:.3;transition:all .2s}
+    .pagination-item:not(:last-child) a .pagination-item-label,.pagination-item:not(:last-child) a .pagination-item-subtitle,.pagination-item:not(:last-child) a .pagination-item-title{opacity:.8;transition:all .2s}
     .pagination-item:last-child .pagination-item-label,.pagination-item:not(:last-child) a:hover .pagination-item-label{opacity:.6}
     .pagination-item:not(:last-child) a:hover .pagination-item-title{opacity:1}
     .pagination-item-label{color:#0366D6;font-size:1.25em}

@@ -186,7 +186,7 @@ var css = `
     /*.pagination-item:not(:last-child) a .pagination-item-label,.pagination-item:not(:last-child) a .pagination-item-subtitle,.pagination-item:not(:last-child) a .pagination-item-title{opacity:1;transition:all .2s}*/
     .pagination-item a .pagination-item-label,.pagination-item a .pagination-item-subtitle,.pagination-item a .pagination-item-title{opacity:.7;transition:all .2s}
     .pagination-item .pagination-item-label,.pagination-item a:hover .pagination-item-label{opacity:.7;transition:all .2s}
-    .pagination-item a:hover .pagination-item-title{opacity:.7;transition:all .2s}
+    .pagination-item a:hover .pagination-item-title{opacity:1;transition:all .2s}
     .pagination-item-label{color:#0366D6;font-size:1.25em}
     .pagination-item-label>*{line-height:1;vertical-align:middle}
     .pagination-item-label svg{height:.8em;width:auto;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1px;color:#0366D6;}

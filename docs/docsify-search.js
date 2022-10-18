@@ -360,11 +360,11 @@
   function style() {
     var code = `
         .sidebar {padding-top: 0;}
-        .search {margin-bottom: 10px;  padding: 6px;  border-bottom: 1px solid #eee;}
+        .search {margin-bottom: 10px;  padding: 6px; background: #F6F9FB; border-bottom: 1px solid dodgerblue;}
         .search .input-wrap {display: flex; align-items: center;}
         .search .results-panel {display: none;}
         .search .results-panel.show {display: block;}
-        .search input {outline: none; width: 95%; padding: 0 7px; line-height: 20px; font-size: 14px; background-color: white; border: 1px solid dodgerblue;}
+        .search input {outline: none; width: 95%; margin: 6px 0px 6px 6px; padding: 2px 8px; line-height: 20px; font-size: 14px; background-color: white; border: 1px solid dodgerblue;}
         .search input: focus {box-shadow: 0 0 5px var(--theme-color, #42b983); border: 1px solid var(--theme-color, #42b983);}
         .search input:: -webkit-search-decoration,
         .search input:: -webkit-search-cancel-button,

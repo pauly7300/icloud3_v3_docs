@@ -177,7 +177,8 @@ function styleInject(css, ref) {
   }
 }
 
-var css = ".docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:5em 0 1em;border-top:1px solid rgba(0,0,0,.07)}
+var css = `
+    .docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:5em 0 1em;border-top:1px solid rgba(0,0,0,.07)}
     .pagination-item{margin-top:2.5em}
     .pagination-item a,.pagination-item a:hover{text-decoration:none}
     .pagination-item a{color:currentColor}
@@ -192,7 +193,8 @@ var css = ".docsify-pagination-container{display:flex;flex-wrap:wrap;justify-con
     .pagination-item--next svg{margin-left:.5em}
     .pagination-item--previous svg{margin-right:.5em}
     .pagination-item-title{font-size:1.6em}
-    .pagination-item-subtitle{text-transform:uppercase;opacity:.3}";
+    .pagination-item-subtitle{text-transform:uppercase;opacity:.3};
+    `
 styleInject(css);
 
 var classCallCheck = function (instance, Constructor) {

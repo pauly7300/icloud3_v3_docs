@@ -29,7 +29,7 @@ body{
     background-color: red;
 }
 .sidebar>h1 {
-    margin: 5px 10px 0 10px;
+    margin: 5px 10px 5px 10px;
     font-size: 1.5rem;
     font-weight: 300;
     text-align: center;

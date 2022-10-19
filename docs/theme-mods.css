@@ -14,7 +14,7 @@ body{
    left: 250px;
 }
 .sidebar::-webkit-scrollbar {
-    width: 1px;
+    width: 8px;
     background: var(--theme-color,#42b983)
 }
 

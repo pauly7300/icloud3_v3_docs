@@ -17,8 +17,12 @@ body{
     width: 6px;
     background: #dbe4f0;
 }
+.sidebar::-webkit-scrollbar-thumb {
+    background: #b7c9e1;
+    border-radius: 0px;
+}
 .sidebar::-webkit-scrollbar-thumb:vertical:hover {
-    background-color: red;
+    background-color: #81a1ca;
 }
 
 .sidebar {

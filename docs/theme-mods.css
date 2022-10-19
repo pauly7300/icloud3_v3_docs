@@ -70,8 +70,14 @@ body{
     line-height: 1.4em;
     border-top: 1px solid #33A9F4;
 }
-.markdown-section {
+/*.markdown-section {
     padding: 0 15px 40px;
+}*/
+.markdown-section {
+    margin: 0 15px;
+    max-width: 800px;
+    padding: 0px 15px 40px;
+    position: relative;
 }
 .markdown-section h1 {
     /*color: var(--theme-color,#42b983);*/

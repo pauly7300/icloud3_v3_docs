@@ -73,7 +73,7 @@ Notes about this screen:
   - Tracked - request location information when necessary.
   - Monitored - use location information returned from iCloud Location Servers when another device asked for it.
   - Inactive - Do not track or monitor this device. This lets you not track a device without deleting from iCloud3.
-- Track From Zones - Select another, non Home zones to also track from that zone. This is discussed in the *Device Tracker and Sensor Entities* section [here](../1.4-device-tracker-sensor-names?id=device-tracker-sensor-entities).
+- Track From Zones - Select another, non Home zones to also track from that zone. This is discussed in the *Device Tracker and Sensor Entities* section.
 
 
 

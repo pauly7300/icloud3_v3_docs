@@ -16,6 +16,7 @@ body{
 .anchor span {
     color: #446ca2;
 }
+/*---------------------------------------------------*/
 .sidebar::-webkit-scrollbar {
     width: 6px;
     background: #edf2f7;
@@ -73,6 +74,15 @@ body{
     line-height: 1.4em;
     border-top: 1px solid #33A9F4;
 }
+.sidebar-version-date {
+    font-family: Arial;
+    font-size: 13px;
+    color: darkred;
+    text-align: center;
+    border-bottom: solid darkred 1px;
+}
+
+/*---------------------------------------------------*/
 .markdown-section hr {
     /**/order: none;
     border-bottom: 1px solid #446ca2;
@@ -146,13 +156,14 @@ body{
     color: DarkBlue;
     margin: 0 .2rem 0 .1rem;
 }
-
+/*---------------------------------------------------*/
 .search {
     wdth: 95%;
     line-height: 20px;
     border: 1px splid dodgerblue;
     background-color: white;
 }
+/*---------------------------------------------------*/
 .button-base {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -167,13 +178,6 @@ body{
     box-shadow: 0px 1px 3px #94592c;
     color: #94592c;
     border: solid #94592c 1px;
-}
-.sidebar-version-date {
-    font-family: Arial;
-    font-size: 13px;
-    color: darkred;
-    text-align: center;
-    border-bottom: solid darkred 1px;
 }
 .button-base:hover {
     background: #faebe1;

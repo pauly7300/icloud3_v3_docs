@@ -21,16 +21,16 @@
 </nav>
 
 - What's New and What Changed
- - [Changes and new Features - v3.0.0](CHANGELOG-v2.4.md)
+ - [Changes and new Features - v3.0.0](change-log-v3.0.0.md)
 - Welcome to iCloud3
  - [Introduction](README.md)
-   - [Getting Started](chapters/1.0-getting-started.md)
-   - [iCloud3 Components](chapters/1.1-ic3-components.md)
-   - [iCloud3 Tracking Methods](chapters/1.2-ic3-tracking-methods.md)
-   - [Configuring iCloud3](chapters/1.3-introducing-the-configurator.md)
-   - [Device Tracker & Sensor Entities](chapters/1.4-device-tracker-sensor-names.md)
-   - [Apple iCloud Account](chapters/1.5-apple-icloud-acct.md)
-   - [iCloud Authentication](chapters/1.6-apple-icloud-acct-authentication.md)
+   - [Getting Started](chapters/1-getting-started.md)
+   - [iCloud3 Components](chapters/1-ic3-components.md)
+   - [iCloud3 Tracking Methods](chapters/1-ic3-tracking-methods.md)
+   - [Configuring iCloud3](chapters/1-introducing-the-configurator.md)
+   - [Device Tracker & Sensor Entities](chapters/1-device-tracker-sensor-names.md)
+   - [Apple iCloud Account](chapters/1-apple-icloud-acct.md)
+   - [iCloud Authentication](chapters/1-apple-icloud-acct-authentication.md)
  - [Installing the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 - Customizing iCloud3 Operations
  - [2.1 Configuration Parameters](chapters/2.1-config-parms.md)

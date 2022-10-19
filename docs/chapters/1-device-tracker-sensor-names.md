@@ -10,7 +10,9 @@ You will assign an iCloud3 device name (gary_iphone) and a a friendly name (Gary
 
 Note: Additional sensors are created when you are tracking from an additional zone. This is discussed in Chapter # - Sensors.
 
-**Tracking from multiple Zones** - Normally, you will only be tracking a device from the Home Zone. The sensor entities related to travel time, distance, intervals, next update time, etc. are all for the Home Zone. However, if you are tracking a device from more than one zone, you will select the other zone(s) on the *iCloud3 Devices* screen (*Track from Zone* parameter). Sensors are created for the Home Zone and for the additional zone(s) with the zone name added to the end of the entity name:
+### Tracking from More than One Zone
+
+Normally, you will only be tracking a device from the Home Zone. The sensor entities related to travel time, distance, intervals, next update time, etc. are all for the Home Zone. However, if you are tracking a device from more than one zone, you will select the other zone(s) on the *iCloud3 Devices* screen (*Track from Zone* parameter). Sensors are created for the Home Zone and for the additional zone(s) with the zone name added to the end of the entity name:
 
 - sensor.gary_iphone_travel_home, sensor.gary_iphone_zone_distance_home, etc.
 - Gary TravelTime (Home), Gary ZoneDistance (Home), etc.
@@ -18,3 +20,4 @@ Note: Additional sensors are created when you are tracking from an additional zo
 - Gary TravelTime (Warehouse), Gary ZoneDistance (Warehouse), etc.
 
 The sensors previously created (sensor.gary_iphone_travel_time, sensor.gary_iphone_zone_distance, etc.) are still created, however their meaning changes. They now contain the results of the closest zone you are traveling towards. If you are closer to the Warehouse Zone, it reports the Warehouse Zone values, if closer to Home, the Home values are reported. When the closer zone is the other zone, it's first letter is displayed in a circle in the 'zone_distance' sensor.
+

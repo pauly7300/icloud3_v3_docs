@@ -73,9 +73,10 @@ body{
     line-height: 1.4em;
     border-top: 1px solid #33A9F4;
 }
-.markdown-section hr{
-    color: red;
-    margin: 2em 0 1em 0;
+.markdown-section hr {
+    /**/order: none;
+    border-bottom: 1px solid #446ca2;
+    margin: 2em 0;
 }
 .markdown-section {
     margin: 0 15px;

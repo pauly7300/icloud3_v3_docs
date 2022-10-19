@@ -41,7 +41,7 @@ body{
     font-weight: 300;
     text-align: center;
     color: var(--theme-color,#42b983);
-    /*border-bottom: 1px solid #33A9F4;*/
+    border-bottom: 1px solid #33A9F4;
     word-wrap: break-word;
     white-space: normal;
     text_decoration: underline var(--theme-color, #42b983);

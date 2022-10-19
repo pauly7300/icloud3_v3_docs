@@ -178,7 +178,7 @@ function styleInject(css, ref) {
 }
 
 var css = `
-    .docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:1em 0 1em 0;;border-top:1px solid #33A9F4;color: #0366D6;}
+    .docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:1em 10px 1em 0;;border-top:1px solid #33A9F4;color: #0366D6;}
     .pagination-item{margin:0 0 2.25em 0;}
     .pagination-item a,.pagination-item a:hover{text-decoration:none}
     .pagination-item a{color:currentColor}

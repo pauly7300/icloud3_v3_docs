@@ -17,6 +17,9 @@ body{
     width: 6px;
     background: #dbe4f0;
 }
+.sidebar::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: red;
+}
 
 .sidebar {
     /*font-size: 14px;*/

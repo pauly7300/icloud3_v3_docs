@@ -76,15 +76,15 @@ body{
     max-width: 800px;
     padding: 0px 15px 40px;
     position: relative;
-}.markdown::-webkit-scrollbar {
+}.markdown-section::-webkit-scrollbar {
     width: 6px;
     background: #edf2f7;
 }
-.markdown::-webkit-scrollbar-thumb {
+.markdown-section::-webkit-scrollbar-thumb {
     background: #c9d7e8;
     border-radius: 0px;
 }
-.markdown::-webkit-scrollbar-thumb:vertical:hover {
+.markdown-section::-webkit-scrollbar-thumb:vertical:hover {
     background-color: #a5bcd9;
 }
 .markdown-section h1 {

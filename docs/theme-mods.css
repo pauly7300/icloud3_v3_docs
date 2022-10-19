@@ -13,6 +13,9 @@ body{
    margin: 10pm 0px;
    left: 250px;
 }
+.anchor span {
+    color: #a5bcd9;
+}
 .sidebar::-webkit-scrollbar {
     width: 6px;
     background: #edf2f7;
@@ -40,13 +43,13 @@ body{
     font-size: 1.5rem;
     font-weight: 300;
     text-align: center;
-    color: var(--theme-color,#42b983);
-    border-bottom: 1px solid #33A9F4;
+    color: #a5bcd9;
+    border-bottom: 1px solid #a5bcd9;
     word-wrap: break-word;
     white-space: normal;
-    text_decoration: underline var(--theme-color, #42b983);
+    text_decoration: underline #a5bcd9;
     text-decoration-thickness: 1px;
-    -webkit-text_decoration: underline var(--theme-color, #42b983);
+    -webkit-text_decoration: underline #a5bcd9;
     -webkit-text-decoration-thickness: 1px;
 }
 .sidebar ul li a {
@@ -77,7 +80,7 @@ body{
     padding: 0px 15px 40px;
     position: relative;
 }.markdown-section::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
     background: #edf2f7;
 }
 .markdown-section::-webkit-scrollbar-thumb {

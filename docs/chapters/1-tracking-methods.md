@@ -21,7 +21,7 @@ The Family Sharing tracking method lets you track people on the Family Sharing l
 !>  **When a New Device is Purchased** - When a new phone or other device is purchased, both the old and new devices may in this list. The iCloud3 device configuration parameters should be reviewed to ensure the new device is the one selected and being located.
 ​                                        <img src="../images/cf-device-update-famshr.png" style="zoom:80%;" />   
 
-
+![](../images/cf-device-update-famshr.png)
 
 ### Find-My-Friends (FmF)
 
@@ -30,7 +30,9 @@ The Find-my-Friends tracking method lets you track people who are sharing their 
 - Use this method to track phones that are not on the Family Sharing list on your iCloud account. 
 - They have to set up you on their phone's  *FindMy App** and send an authorization to you.
 - When you set up their device as a device you want to track on the  *iCloud3 Configurator > iCloud3 Devices* screen, their email address or phone number is selected in the Find-My-Friends devices list. 
-​                                  <img src="../images/cf-device-update-fmf.png" style="zoom:80%;" /> 
+  ​                                  <img src="../images/cf-device-update-fmf.png" style="zoom:80%;" /> 
+
+![](../images/cf-device-update-fmf.png)
 
 To add someone to your Find-my-Friends list, on their phone:
 
@@ -47,6 +49,6 @@ The iOS App reports location information and zone enter/exit triggers when they 
 iCloud3 does not require the iOS App to be used. It can be used on some devices and not others. The downside of not using it is not receiving zone enter/exit triggers. In this case, iCloud3 will rely on the location reported from the iCloud Location Servers to determine the distance to the zone. When it is less than the zone's size, you are in the zone. 
 ​                                        <img src="../images/cf-device-update-iosapp.png" style="zoom:80%;" />		
 
- 
+ ![](../images/cf-device-update-iosapp.png)
 
 The official documentation for the iOS App (Home Assistant Companion) can be found [here](https://companion.home-assistant.io/).  

@@ -46,6 +46,8 @@ The Event Log is a Lovelace custom card that shows past and current activity rel
 
 <img src="../images/cf-configurator.png" style="zoom: 50%;" />
 
+![](../images/cf-configurator.png)
+
 *The Configurator* consists of 2 menus and 10+ parameter entry screens. Each screen has two parts:
 
 - **Selection or parameter entry (top part)** - This is used to select a task to be done, an item to be selected or an option list/ text field for the parameter to be configure.
@@ -71,3 +73,4 @@ Several example screens are shown below, showing these 2-sections. These and the
 
 <img src="../images/cf-evlog-config.png" style="zoom:80%;" />
 
+![](../images/cf-evlog-config.png)

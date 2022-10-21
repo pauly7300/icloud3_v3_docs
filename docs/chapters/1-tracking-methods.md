@@ -17,8 +17,6 @@ The following 3-drop down lists highlight the data source selection method used 
 The Family Sharing tracking method lets you track people on the Family Sharing list on your iCloud account.
 
 - This list shows the device's name in the *Settings App > General > About*  Name field on the device (Gary-iPhone), the device type (iPhone 14 Pro) and Apple model name (iPhone15,2) for each device found in the Family Sharing List.
-
-!>  **When a New Device is Purchased** - When a new phone or other device is purchased, both the old and new devices may in this list. The iCloud3 device configuration parameters should be reviewed to ensure the new device is the one selected and being located.
 ![](../images/cf-device-update-famshr.png)
 
 ### Find-My-Friends (FmF)
@@ -46,3 +44,7 @@ iCloud3 does not require the iOS App to be used. It can be used on some devices 
  ![](../images/cf-device-update-iosapp.png)
 
 The official documentation for the iOS App (Home Assistant Companion) can be found [here](https://companion.home-assistant.io/).  
+
+
+
+!>  **When a New Device is Purchased** - When a new phone or other device is purchased, both the old and new devices may in this list. The iCloud3 device configuration parameters should be reviewed to ensure the new device is the one selected and being located.

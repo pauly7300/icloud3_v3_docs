@@ -44,7 +44,7 @@ The Event Log is a Lovelace custom card that shows past and current activity rel
 
 *The Configurator* is used to configure iCloud3 parameters.  It is opened on the *Settings > Devices & Services > Integrations* screen. Then select *CONFIGURE* on the iCloud3 Integrations entry.
 
-<img src="../images/cf-configurator.png" width="100%" height="0"/>
+<img src="../images/cf-configurator.png" width="100" />
 
 ![](../images/cf-configurator.png)
 

@@ -71,6 +71,6 @@ Several example screens are shown below, showing these 2-sections. These and the
 
 **Event Log Configuration screen** - Configuring the Event Log field display is done on this screen.
 
-<img src="../images/cf-evlog-config.png" style="zoom:80%;" />
+<img src="../images/cf-evlog-config.png" style="width:80%;" />
 
 ![](../images/cf-evlog-config.png)

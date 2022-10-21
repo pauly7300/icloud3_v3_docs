@@ -17,7 +17,8 @@ Devices are added, deleted and updated on parameter screens in the *iCloud3 Conf
 
 ### iCloud3 Devices Tracker Entities screen
 
-This screen lists the devices that have been added to iCloud3.                                                   <img src="../images/cf-device-list.png" style="zoom:80%;" />
+This screen lists the devices that have been added to iCloud3. 
+![](../images/cf-device-list.png)
 
 
 

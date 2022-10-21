@@ -22,7 +22,8 @@ The purpose of this screen is to:
   - Apple iCloud Account only - iOS App mobile_app devices will not be monitored on any device; zone enter/exit triggers and location updates will not be available.
   - iOS App only - The username and password are not required.
   - Both the Apple iCloud and the iOS App - Normal mode of operation.
-  - ​                                        <img src="../images/cf-acct-login.png" style="zoom:80%;" />  
+
+![](../images/cf-acct-login.png)
 
 Special Notes:
 

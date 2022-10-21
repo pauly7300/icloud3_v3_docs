@@ -1,92 +1,68 @@
 ------
 
-The *Settings App > General > About* screen on the iPhone and other devices is used to set up the device's name that is used in the Family Sharing List and FindMy App. The iOS App, once installed on the iPhone, will also use this name to create it's device_tracker entity name that is used by HA and the *mobile_app* integration. Generally, it changes all upper-case letters to lower-case and all spaces to underscores ('Gary iPhone' → 'gary_iphone'). The iOS App may add a suffix number to make this name unique if it is already used.
-
-You will assign an iCloud3 device name (gary_iphone) and a friendly name (Gary) when you add the device on the *iCloud3 Devices >  Update Tracked iCloud3 Device* screen. Those values are used to create the device_tracker entity, sensor entity and the sensor's friendly name:
+Every tracked device is assigned a *devicename*, just like all other Home Assistant devices. That name becomes part of the device_tracker and sensor entities created and maintained by iCloud3. The following example shows the entities created for the *gary_iphone* device:
 
 - device_tracker.gary_iphone
 - sensor.gary_iphone_travel_time, sensor.gary_iphone_zone_distance, etc.
-- Gary TravelTime, Gary ZoneDistance, etc.
 
-Three screens are used to set up the Apple iCloud account and to configure an iCloud3 device:
+Devices are added, deleted and updated on parameter screens in the *iCloud3 Configurator*:
 
-- *iCloud Account Login Credentials* - Set up username and password.
-- *iCloud3 Devices* - List the devices iCloud3 is tracking and monitoring
-- *Update Tracked iCloud3 Device* - Add a new device or update an existing device's information.delete the devices that are tracked.
+- **List all iCloud3 Devices** -  Select *iCloud3 Devices* to list the devices. The devices are shown, along with it's *friendly name* and the  name of the physical device that supplies location information for the 3 tracking methods.
+-  **Add a Device** - Select *Add Device* in the Command Area of the *iCloud3 Device Tracker Entities* screen. The *Add iCloud3 Device* screen is displayed. Assign a *devicename*, enter it's friendly name, select the physical device that supplies location information for the 3 tracking methods and other identification and configuration parameters.
+- **Delete a Device** - Select *Delete Device* in the Command Area of the *iCloud3 Device Tracker Entities* screen. Then confirm the deletion.
 
-
-
-### iCloud Account Login Credentials
-
-This screen is used to set up your Apple iCloud account username and password. You will also specify if location data will come from the iCloud account, the iOS App or both.
-​                                                  <img src="../images/cf-acct-login.png" style="zoom:80%;" />  
-
-Notes:
-
-1. Select **Login** and **Submit** to login into your iCloud account. 
-
-   - Apple will send you a notification that someone is logging into your iCloud account and display the map with the login location. 
-   - Tap **Allow**  to continue and display the 6-digit verification code. 
-   - Instructions for entering the 6-digit code are discussed in the next section. Although you can display the entry screen here (Select *Enter) Verification Code*), you may have to also reenter it on the other screen also.
-
-2. The password is stored in the iCloud3 configuration file in an encrypted format. It is displayed here in a hidden format.
-
-   - Select **Show/Hide Username/Password** and **Submit** to show or hide it.
-
-   
-
-​	
+!> The device_tracker and sensor entities for iCloud3 devices are created or deleted when you add or delete an iCloud3 device here. They are also changed if you change the iCloud3 devicename. Changing an iCloud3 device name or deleting it on the HA Devices and Entity screens will update the iCloud3 configuration files. The old names will be recreaed when HA restarts.
 
 
 
-### iCloud3 Devices Tracker Entities screens
+### iCloud3 Devices Tracker Entities screen
 
-This screen lists the devices that have been added to iCloud3. Select the device, then select *Update Device* to change it's parameters or *Delete Device* to delete it.
-
-​                                                  <img src="../images/cf-device-list.png" style="zoom:80%;" />
-
-Notes about this screen:
-
-- It shows the iCloud3 device_tracker entity name (devicename) with the friendly name and the Family Sharing device, FindMy device and iOS App device providing location information.
-- Deleting the device will remove it from this list, delete the device_tracker.[devicename] and all sensors from Home Assistant.
-- !> If you delete it from HA Devices or Entities screen, it will not be deleted from iCloud3.
-- iCloud3 will restart when you add or delete a device or update a devices parameters.
+This screen lists the devices that have been added to iCloud3.                                                   <img src="../images/cf-device-list.png" style="zoom:80%;" />
 
 
 
-### Update Tracked iCloud3 Device
+### Update Tracked iCloud3 Device screen
 
-This screen is used to Add a new device or change the parameters of an existing device.
+This screen is used to add a new device or change the parameters of an existing device.
 
 ![](../images/cf-device-update-1-2-sbs.png)
 
-Notes about this screen:
+Special Notes:
 
 - iCloud3 Device Name - The device_tracker entity name used through Home Assistant to access the device information. 
-  - Device Tracker Entity - Example: *device_tracker.[devicename]*
-  - Sensor Entity - Example: *sensor.[devicename]_travel_time*
+  - Device Tracker Entity - Example: *device_tracker.gary_iphone*
+  - Sensor Entities - Example: *sensor.gary_iphone_travel_time, sensor.gary_iphone_zone_distance*
 
-!> Do not change the device_tracker entity name on the HA Devices or Entities screen. Change it here instead. HA will be updated with any changes you make here but the iCloud3 configuration will not be updated if you change it on the HA screens.
-
-- Family Sharing device, FindMy device and iOS App - Select the appropriate device to be associated with this device or None.
+- Family Sharing List device, Find-my-Friends (FindMy) device and iOS App device - Select the physical device that will suppply location information. Select *None* if this tracking method is not used.
 - Tracking Mode:
-  - Tracked - request location information when necessary.
-  - Monitored - use location information returned from iCloud Location Servers when another device asked for it.
+  - Tracked - Request location information when necessary.
+  - Monitored - Use location information returned from iCloud Location Servers when another device asked for it.
   - Inactive - Do not track or monitor this device. This lets you not track a device without deleting from iCloud3.
-- Track From Zones - Select another, non Home zones to also track from that zone. This is discussed in the *Device Tracker and Sensor Entities* section.
+- Track From Zones - Select another, non-Home zone(s) to be tracked from. See below.
 
 
-
-Note: Additional sensors are created when you are tracking from an additional zone. This is discussed in Chapter # - Sensors.
 
 ### Tracking from More than One Zone
 
-Normally, you will only be tracking a device from the Home Zone. The sensor entities related to travel time, distance, intervals, next update time, etc. are all for the Home Zone. However, if you are tracking a device from more than one zone, you will select the other zone(s) on the *iCloud3 Devices* screen (*Track from Zone* parameter). Sensors are created for the Home Zone and for the additional zone(s) with the zone name added to the end of the entity name:
+Normally, you track a device from the Home Zone. The sensor entities for travel time, distance, intervals, next update time, etc. are calculated for the Home Zone. iCloud3 also lets you track a device from another zone. It will calculate the same type of sensor entities for that zone. 
 
-- sensor.gary_iphone_travel_home, sensor.gary_iphone_zone_distance_home, etc.
-- Gary TravelTime (Home), Gary ZoneDistance (Home), etc.
-- sensor.gary_iphone_travel_time_warehouse, sensor.gary_iphone_zone_distance_warehouse. etc.
-- Gary TravelTime (Warehouse), Gary ZoneDistance (Warehouse), etc.
+To track from another zone, select that zone in the *Track from Zones* parameter. Sensors are created for that zone that can be used to trigger automations, just like they are for the Home zone. There are a few differences:
 
-The sensors previously created (sensor.gary_iphone_travel_time, sensor.gary_iphone_zone_distance, etc.) are still created, however their meaning changes. They now contain the results of the closest zone you are traveling towards. If you are closer to the Warehouse Zone, it reports the Warehouse Zone values, if closer to Home, the Home values are reported. When the closer zone is the other zone, it's first letter is displayed in a circle in the 'zone_distance' sensor.
+- Sensor Entities - The zone name is added to the end of the entity name.
+  - Home Zone -*sensor.gary_iphone_travel_time_home, sensor.gary_iphone_zone_distance_home*, etc.
+  - Warehouse Zone - *sensor.gary_iphone_travel_time_warehouse, sensor.gary_iphone_zone_distance_warehouse*, etc.
 
+- Sensor's Friendly Name - The zone's display-as friendly is added to the end of the sensor friendly name:
+  - Home Zone - Gary TravelTime (Home), Gary ZoneDistance (Home), etc.
+  - Warehouse Zone - Gary TravelTime (Warehouse), Gary ZoneDistance (Warehouse), etc.
+
+
+The sensors previously created without the zone name (above) have changed:
+
+- Closer to the Home Zone - Show the Home Zone information
+- Within 8km of the Other Zone and going towards it - Show the Other Zone's information
+- Within 8km of the Other Zone and going away from it - Show the Home Zone's information
+- Going towards both zones - Show the Home Zone's information if more than 8km away from the Other Zone
+- Other Zone's information is displayed - It's first initial is displayed in the *distance* sensor (🅦 is shown for the Warehouse Zone).
+
+​	

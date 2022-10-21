@@ -6,7 +6,7 @@ The iCloud3 parameters are separated into different categories, based on their t
 
 The menu screens, as are the parameter configuration screens, are divided into 2-parts:
 
-#### Above the horizontal line
+#### Selection Area - Above the horizontal line
 
 This section shows the parameter update screens.
 
@@ -19,12 +19,12 @@ This section shows the parameter update screens.
 - **Waze Route Distance & Time, Waze History Database** - Waze can be used to provide travel time and distance information to a tracked zone. The results can also be saved in a database. This screen is used to configure how Waze should operate.
 - **inZone Intervals** - Different types of devices can have different polling intervals (time between location requests) when they are in a zone. You may want a Watch to have a short interval since it can not use the iOS App for zone enter/exit triggers and an iPhone to have a long interval since it can use the iS App. The default interval times for the different devices are set up on this screen. 
 - **Special Zones** - There are two types of special zones that are set up on this screen.
-  - Pass Through Zone - A Zone Enter delay in case you are just passing through a zone and the iOS App issues a Zone Enter Trigger.
-  - Stationary Zone - A special zone created by iCloud3 when you are at the same location for an extended period of time (friend's house, doctors ofice, work, store, etc).
+  - *Pass Through Zone* - A Zone Enter delay in case you are just passing through a zone and the iOS App issues a Zone Enter Trigger.
+  - *Stationary Zone* - A special zone created by iCloud3 when you are at the same location for an extended period of time (friend's house, doctors ofice, work, store, etc).
 
 - **Other parameters** - General parameters that do not fall into the other categories that you will probably never change.
 
-#### Below the horizontal line
+#### Command Area - Below the horizontal line
 
 This section shows commands that specify what you want to do when you tap Next.
 
@@ -41,6 +41,8 @@ This section shows commands that specify what you want to do when you tap Next.
 ### Examples of several parameter sceens
 
 The following show several parameter update screens. they,and the other parameter screens, a discussed in detail in the Configurat chapter.
+
+
 
 ![](../images/cf-device-update-1-2-sbs.png)
 

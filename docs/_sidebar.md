@@ -25,9 +25,9 @@
   - [iCloud3 Features](chapters/1-features.md)
   - [iCloud3 Components](chapters/1-components.md)
   - [Tracking Methods](chapters/1-tracking-methods.md)
-  - [Configuring iCloud3](chapters/1-configurator.md)
-  - [Setting up a Tracked Device](chapters/1-setting-up-a-tracked-device.md)
-  - [iCloud Authentication](chapters/1-icloud-acct-authentication.md)
+  - [Configuring iCloud3](chapters/1-ic3-configurator.md)
+  - [Setting up a Tracked Device](chapters/1-ic3-tracked-device.md)
+  - [Accessing the Apple iCloud Account](chapters/1-apple-icloud-account.md)
 - [Installing the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 - Customizing iCloud3 Operations
  - [2.1 Configuration Parameters](chapters/9.v2-2.1-config-parms.md)

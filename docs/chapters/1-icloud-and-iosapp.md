@@ -1,8 +1,8 @@
-iCloud3 uses location data from the Apple iCloud account and the iOS App if it is installed on the device. 
+iCloud3 uses location data from the Apple iCloud account and the Home Assistant Companion App that can be installed on your iPhone or iPad. 
 
 
 
-#### iCloud Account
+### iCloud Account
 
 iCloud Location Service provides location information for all devices (iPhone, iPad, etc) using two methods:
 

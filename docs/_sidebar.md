@@ -21,9 +21,9 @@
 </nav>
 
 - [Changes and new Features - v3.0.0](change-log-v3.0.0.md)
-- [Introduction](README.md)
-  - [iCloud3 Features](chapters/1-features.md)
+- [Introduction to iCloud3](README.md)
   - [iCloud3 Components](chapters/1-components.md)
+  - [Apple iCloud Account and the iOS App](chapters/1-icloud-and-iosapp.md)
   - [Tracking Methods](chapters/1-tracking-methods.md)
   - [Configuring iCloud3](chapters/1-ic3-configurator.md)
   - [Setting up a Tracked Device](chapters/1-ic3-tracked-device.md)

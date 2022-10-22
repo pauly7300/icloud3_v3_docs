@@ -1,5 +1,3 @@
-------
-
 iCloud3 uses location data from the Apple iCloud account and the Home Assistant Companion App that can be installed on your iPhone or iPad. 
 
 

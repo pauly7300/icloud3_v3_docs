@@ -15,6 +15,8 @@ Devices are added, deleted and updated on parameter screens in the *iCloud3 Conf
 
 
 
+------
+
 ### iCloud3 Devices Tracker Entities screen
 
 This screen lists the devices that have been added to iCloud3. 
@@ -22,11 +24,13 @@ This screen lists the devices that have been added to iCloud3.
 
 
 
+------
+
 ### Update Tracked iCloud3 Device screen
 
 This screen is used to add a new device or change the parameters of an existing device.
 
-![](../images/cf-device-update-1-2-sbs.png)
+![](../images/cf-device-update.png)
 
 Special Notes:
 
@@ -43,6 +47,8 @@ Special Notes:
 
 
 
+------
+
 ### Tracking from More than One Zone
 
 Normally, you track a device from the Home Zone. The sensor entities for travel time, distance, intervals, next update time, etc. are calculated for the Home Zone. iCloud3 also lets you track a device from another zone. It will calculate the same type of sensor entities for that zone. 
@@ -57,6 +63,10 @@ To track from another zone, select that zone in the *Track from Zones* parameter
   - Home Zone - Gary TravelTime (Home), Gary ZoneDistance (Home), etc.
   - Warehouse Zone - Gary TravelTime (Warehouse), Gary ZoneDistance (Warehouse), etc.
 
+The Track-from-Zone sensors mentioned above are optional, only the sensors that will be disolayed on a Lovelace card or used in an automation need to be created.  They are selected on *iCloud3 Configurator > Sensors* screen.
+
+![](../images/cf-sensors-tfz.png)
+
 
 The sensors previously created without the zone name (above) have changed:
 
@@ -65,5 +75,7 @@ The sensors previously created without the zone name (above) have changed:
 - Within 8km of the Other Zone and going away from it - Show the Home Zone's information
 - Going towards both zones - Show the Home Zone's information if more than 8km away from the Other Zone
 - Other Zone's information is displayed - It's first initial is displayed in the *distance* sensor (🅦 is shown for the Warehouse Zone).
+
+
 
 ​	

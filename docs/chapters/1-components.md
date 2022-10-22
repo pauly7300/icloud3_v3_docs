@@ -1,6 +1,14 @@
-------
+There are 3 major parts to the iCloud3 custom component that are used to configure, track and report device location information. They are:
 
-There are 3 major parts to the iCloud3 custom component that are used to configure, track and report device location information. Each is described below:
+- iCloud3 Custom Component 
+- Event Log
+- The Configurator
+
+This section describes each of the items.
+
+
+
+------
 
 ### iCloud3 Custom Component
 
@@ -21,7 +29,9 @@ The screens below show examples of a tracked device's current status. The follow
 
 ![](../images/tracking-gary-lillian-home.png)
 
-![](../images/tracking-gary-lillian-home-1015.png)
+
+
+------
 
 ### Event Log
 
@@ -43,26 +53,13 @@ The Event Log is a Lovelace custom card that shows past and current activity rel
 - The Event Log is installed into the *config/www/icloud3* directory. This directory can be changed on the *Configurator > Event Log Configuration* screen.
 - It must be added as a resource on the *Settings > Dashboard > Lovelace Resources* screen before it can be used. The steps to do this are described in the *Installing iCloud3 > Step #3 - Set up the Lovelace Resource*.
 
-xxxxxqqqqqqwwwwwwwwwww
 
-  - Startup configuration.
-  - Device information for family sharing, find-my-friends and iOS App devices and entities.
-  - Tracking results - zone time and distance data.
-  - 
-  - Detail tracking monitors that show what is going on behind the scenes analyzing and processing location data from the iCloud Location Services and the iOS App.
-  - An *Actions* command menu that will:
-    - Restart iCloud3 without restarting Home Assistant
-    - Pause and resume tracking
-    - Relocate all devices
-    - Issue a *Find My Device* alert
-    - Export the Event Log to a text file
-    - Show/hide tracking monitors
-    - Start/stop detailed debugging that will dump set up information and all raw data received from iCloud Location Services.
-
-  - The Event Log is installed into the *config/www/icloud3* directory. This directory can be changed on the *Configurator > Event Log Configuration* screen. 
-  - It must be added as a resource on the *Settings > Dashboard > Lovelace Resources* screen before it can be used. The steps to do this are described in the *Installing iCloud3 > Step #3 - Set up the Lovelace Resource*.
 
 ![](../images/tracking-gary-lillian-home-evlog.png)
+
+
+
+------
 
 ### iCloud3 Configurator
 
@@ -81,12 +78,12 @@ Several example screens are shown below, showing these 2-sections. These and the
 
 
 **Update Configuration Main Menu screens** - These is used to select the specific update screen.
-![](../images/cf-menu-1-2-sbs.png)
+![](../images/cf-menu.png)
 
 
 
 **Update Tracked Device screens** - Adding a new device and updating an existing device is done on this screen.
-![](../images/cf-device-update-1-2-sbs.png)
+![](../images/cf-device-update.png)
 
 
 

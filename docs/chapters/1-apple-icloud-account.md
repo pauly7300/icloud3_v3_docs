@@ -1,5 +1,3 @@
-------
-
 The Apple iCloud Account is logged into when iCloud3 starts. It provides:
 
 - Information for the devices in the Family Sharing list
@@ -10,6 +8,8 @@ The device information from the iCloud account s displayed on the Event Log duri
 The Apple iCloud account username and password needs to be set up on the *iCloud Account Login Credentials* screen before that happens. The process of setting up the iCloud account, and then authenticating access to the account is described below.
 
 
+
+------
 
 ### iCloud Account Login Credentials
 
@@ -38,6 +38,7 @@ Special Notes:
 
 
 
+------
 
 ### Apple iCloud Account Authentication
 

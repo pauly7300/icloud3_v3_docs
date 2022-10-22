@@ -40,10 +40,12 @@ This section shows commands that specify what you want to do when you tap Next.
 
 ### Examples of several parameter sceens
 
-The following show several parameter update screens. they,and the other parameter screens, a discussed in detail in the Configurat chapter.
+The following show several parameter update screens. they,and the other parameter screens, a discussed in detail in the *Configuring iCloud3* chapter.
+
+Tracked devices are added and updated on this screen.
+![](../images/cf-device-update.png)
 
 
 
-![](../images/cf-device-update-1-2-sbs.png)
-
+Many sensors can be created and updated by iCloud3. Those that should be created are selected on this screen.
 ![](../images/cf-sensors.png)

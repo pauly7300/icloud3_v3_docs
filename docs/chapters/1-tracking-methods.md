@@ -12,6 +12,7 @@ The following 3-drop down lists highlight the data source selection method used 
 
 
 
+------
 ### Family Sharing (FamShr)
 
 The Family Sharing tracking method lets you track people on the Family Sharing list on your iCloud account.
@@ -20,6 +21,8 @@ The Family Sharing tracking method lets you track people on the Family Sharing l
 - The selection list shows the device's name in the *Settings App > General > About*  Name field on the device (Gary-iPhone), the device type (iPhone 14 Pro) and Apple model name (iPhone15,2).
 ![](../images/cf-device-update-famshr.png)
 
+
+------
 ### Find-My-Friends (FmF)
 
 The Find-my-Friends tracking method lets you track people who are sharing their location with you in the FindMy App.  
@@ -36,6 +39,7 @@ To add someone to your Find-my-Friends list, on their phone:
 
 
 
+------
 ### iOS App (iOSApp)
 
 The iOS App reports location information and zone enter/exit triggers when they occur. iCloud3 uses this information to update the phone's location and determine if the phone is entering or exiting a zone.  

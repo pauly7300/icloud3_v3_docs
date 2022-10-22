@@ -4,6 +4,8 @@ iCloud3 uses location data from the Apple iCloud account and the Home Assistant 
 
 
 
+------
+
 ### iCloud Account
 
 iCloud Location Service provides location information for all devices (iPhone, iPad, etc) using two methods:
@@ -15,6 +17,8 @@ The FamShr method is always used since the iCloud Account owner is part of the F
 
 
 
+------
+
 ### Home Assistant Companion iOS App (iOS App)
 
 The iOS App can be installed on iPhones and iPads to monitor the device's location and provide zone enter/exit triggers. It will:
@@ -23,6 +27,8 @@ The iOS App can be installed on iPhones and iPads to monitor the device's locati
 - Update the device's location -  iCloud3 monitors the iOS App location data and updates the tracking information.
 
 
+
+------
 
 ### HA Proximity Component
 

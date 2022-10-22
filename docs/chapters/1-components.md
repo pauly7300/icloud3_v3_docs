@@ -21,7 +21,7 @@ The screens below show examples of a tracked device's current status. The follow
 
 ![](../images/tracking-gary-lillian-home.png)
 
-
+![](../images/tracking-gary-lillian-home-1015.png)
 
 ### Event Log
 

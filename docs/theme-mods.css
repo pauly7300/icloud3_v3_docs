@@ -119,6 +119,19 @@ body{
 .markdown-section h6 {
     margin: 20px 0 -20px 0;
 }
+
+.markdown-section p {
+    /*margin:1.2em 0;*/
+    margin:1em 0 0 0;
+}
+.markdown-section ol, .markdown-section p, .markdown-section ul {
+    /*line-height:1.6rem; */
+    word-spacing:.05rem
+}
+.markdown-section ol,.markdown-section ul {
+    padding-left:1.5rem
+}
+
 .markdown-section p.tip {
     background-color: #FFF6F4;
 }

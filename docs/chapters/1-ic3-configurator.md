@@ -1,3 +1,5 @@
+# Configuring iCloud3 with *The Configurator*
+
 The iCloud3 parameters are separated into different categories, based on their type. The Configurator uses 2-menu screens to select the appropriate configuration screen.
 
 ![](../images/cf-menu-1-2-sbs.png)

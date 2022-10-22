@@ -1,3 +1,5 @@
+# Setting up a Tracked Device
+
 Every tracked device is assigned a *devicename*, just like all other Home Assistant devices. That name becomes part of the device_tracker and sensor entities created and maintained by iCloud3. The following example shows the entities created for the *gary_iphone* device:
 
 - device_tracker.gary_iphone

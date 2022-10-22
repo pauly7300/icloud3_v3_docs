@@ -30,13 +30,25 @@ The Event Log is a Lovelace custom card that shows past and current activity rel
 - Startup configuration.
 - Device information for Family Sharing, Find-my-Friends and iOS App devices and entities.
 - Tracking results - zone time and distance data.
+- Error messages, problems, location data issues.
+- Detail tracking monitors that show what is going on behind the scenes analyzing and processing location data from the iCloud Location Services and the iOS App.
+- An *Actions* command menu that will:
+  - Restart iCloud3 without restarting Home Assistant
+  - Pause and resume tracking
+  - Relocate all devices
+  - Issue a *Find My Device* alert
+  - Export the Event Log to a text file
+  - Show/hide tracking monitors
+  - Start/stop detailed debugging that will dump set up information and all raw data received from iCloud Location Services.
+- The Event Log is installed into the *config/www/icloud3* directory. This directory can be changed on the *Configurator > Event Log Configuration* screen.
+- It must be added as a resource on the *Settings > Dashboard > Lovelace Resources* screen before it can be used. The steps to do this are described in the *Installing iCloud3 > Step #3 - Set up the Lovelace Resource*.
 
 xxxxxqqqqqq
 
   - Startup configuration.
   - Device information for family sharing, find-my-friends and iOS App devices and entities.
   - Tracking results - zone time and distance data.
-  - Error messages, problems, location data issues.
+  - 
   - Detail tracking monitors that show what is going on behind the scenes analyzing and processing location data from the iCloud Location Services and the iOS App.
   - An *Actions* command menu that will:
     - Restart iCloud3 without restarting Home Assistant

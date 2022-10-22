@@ -31,7 +31,7 @@ The Event Log is a Lovelace custom card that shows past and current activity rel
 - Device information for Family Sharing, Find-my-Friends and iOS App devices and entities.
 - Tracking results - zone time and distance data.
 
-xxxxx
+xxxxxqqqqqq
 
   - Startup configuration.
   - Device information for family sharing, find-my-friends and iOS App devices and entities.

@@ -26,6 +26,13 @@ The screens below show examples of a tracked device's current status. The follow
 ### Event Log
 
 The Event Log is a Lovelace custom card that shows past and current activity related to tracking a device. This includes:
+
+- Startup configuration.
+- Device information for Family Sharing, Find-my-Friends and iOS App devices and entities.
+- Tracking results - zone time and distance data.
+
+xxxxx
+
   - Startup configuration.
   - Device information for family sharing, find-my-friends and iOS App devices and entities.
   - Tracking results - zone time and distance data.
@@ -42,7 +49,8 @@ The Event Log is a Lovelace custom card that shows past and current activity rel
 
   - The Event Log is installed into the *config/www/icloud3* directory. This directory can be changed on the *Configurator > Event Log Configuration* screen. 
   - It must be added as a resource on the *Settings > Dashboard > Lovelace Resources* screen before it can be used. The steps to do this are described in the *Installing iCloud3 > Step #3 - Set up the Lovelace Resource*.
-  - ![](../images/tracking-gary-lillian-home-evlog.png)
+
+![](../images/tracking-gary-lillian-home-evlog.png)
 
 ### iCloud3 Configurator
 

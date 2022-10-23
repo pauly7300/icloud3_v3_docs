@@ -21,13 +21,13 @@
 </nav>
 
 - [Changes and new Features - v3.0.0](change-log-v3.0.0.md)
-- [Introduction to iCloud3](README.md)
-  - [iCloud3 Components](chapters/1-components.md)
-  - [Apple iCloud Account & iOS App](chapters/1-icloud-and-iosapp.md)
-  - [Tracking Methods](chapters/1-tracking-methods.md)
-  - [Configuring iCloud3](chapters/1-ic3-configurator.md)
-  - [Setting up a Tracked Device](chapters/1-ic3-tracked-device.md)
-  - [Accessing the Apple iCloud Account](chapters/1-apple-icloud-account.md)
+- [Understanding iCloud3](README.md)
+  - [iCloud3 Components](chapters/1.1-ic3-components.md)
+  - [iCloud & iOS App Location Data](chapters/1.2-icloud-iosapp-loc-data.md)
+  - [Configuring iCloud3](chapters/1.3-configuring-ic3.md)
+  - [Event Log During Startup]()
+  - [xSetting up a Tracked Device](chapters/1-ic3-tracked-device.md)
+  - [xAccessing the Apple iCloud Account](chapters/1-apple-icloud-account.md)
 - [Installing the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 - Customizing iCloud3 Operations
  - [2.1 Configuration Parameters](chapters/9.v2-2.1-config-parms.md)

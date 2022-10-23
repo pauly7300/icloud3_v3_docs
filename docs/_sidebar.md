@@ -25,7 +25,7 @@
   - [iCloud3 Components](chapters/1.1-ic3-components.md)
   - [iCloud & iOS App Location Data](chapters/1.2-icloud-iosapp-loc-data.md)
   - [Configuring iCloud3](chapters/1.3-configuring-ic3.md)
-  - [Event Log During Startup](1.4-evlog-during-startup.md)
+  - [Event Log During Startup](chapters/1.4-evlog-during-startup.md)
   - [xSetting up a Tracked Device](chapters/1-ic3-tracked-device.md)
   - [xAccessing the Apple iCloud Account](chapters/1-apple-icloud-account.md)
 - [Installing the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)

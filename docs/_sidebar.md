@@ -26,10 +26,9 @@
   - [iCloud & iOS App Location Data](chapters/1.2-icloud-iosapp-loc-data.md)
   - [Configuring iCloud3](chapters/1.3-configuring-ic3.md)
   - [Event Log During Startup](chapters/1.4-evlog-during-startup.md)
+- [Installing and Setting up the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 
 -[---- Inprocess ----]()
-- [Installing the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
-
 -[---- To Be Done ----]()
 - Customizing iCloud3 Operations
  - [2.1 Configuration Parameters](chapters/9.v2-2.1-config-parms.md)

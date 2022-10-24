@@ -57,14 +57,17 @@ body{
     font-size: 14px;
     word-wrap: break-word;
     white-space: normal;
+    padding-left: 2px;
     border: 1px solid transparent;
 }
 .sidebar ul li a:hover {
+    padding-left: 2px;
     border: 1px solid #406495;
     background: #EAF0F7;
 }
 .sidebar ul li.active>a {
     color: #406495;
+    padding-left: 2px;
     border: 1px solid #406495;
     background: #D4DDE9;
 }

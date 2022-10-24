@@ -65,11 +65,11 @@ body{
 }
 .sidebar ul li.active>a {
     /*border-right: 4px solid;*/
-    color: #0E7FC0;
-    border: 1px solid #C9D7E8;
+    color: #597DAD;
+    border: 21px solid #C9D7E8;
     /*text-decoration-line: underline;*/
     /*text-decoration-style: double;*/
-    background: #DBE5F0;
+    background: #D4DDE9;
     /*font-weight: 600;*/
 }
 .sidebar .sidebar-nav {

@@ -64,11 +64,11 @@ body{
     white-space: normal;
 }
 .sidebar ul li.active>a {
-    border-right: 4px solid;
+    /**/order-right: 4px solid;
     color: firebrick;
     /*text-decoration-line: underline;*/
     /*text-decoration-style: double;*/
-    background: #d3e3f5;
+    background: #EAF5FF;
     opacity
     font-weight: 600;
 }

@@ -60,21 +60,13 @@ body{
     border: 1px solid transparent;
 }
 .sidebar ul li a:hover {
-    /*text-decoration: underline;
-    color: firebrick;
-    white-space: normal;*/
-    border: 1px solid #D4DDE9;
-    /*background: #E3E8ED;*/
-    background: #E5EAF2;
+    border: 1px solid #406495;
+    background: #EAF0F7;
 }
 .sidebar ul li.active>a {
-    /*border-right: 4px solid;*/
     color: #406495;
     border: 1px solid #406495;
-    /*text-decoration-line: underline;*/
-    /*text-decoration-style: double;*/
     background: #D4DDE9;
-    /*font-weight: 600;*/
 }
 .sidebar .sidebar-nav {
     line-height: 1.4em;

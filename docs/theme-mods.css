@@ -66,8 +66,10 @@ body{
 .sidebar ul li.active>a {
     border-right: 4px solid;
     color: firebrick;
-    text-decoration-line: underline;
-    text-decoration-style: double;
+    /*text-decoration-line: underline;*/
+    /*text-decoration-style: double;*/
+    background-color: D3E3F5;
+    opacity
     font-weight: 600;
 }
 .sidebar .sidebar-nav {

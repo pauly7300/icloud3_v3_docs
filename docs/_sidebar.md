@@ -27,11 +27,11 @@
   - [Configuring iCloud3](chapters/1.3-configuring-ic3.md)
   - [Event Log During Startup](chapters/1.4-evlog-during-startup.md)
 - [Installing and Setting up the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
-
+- [Configuration Parameters](chapters/3.0-config-parms.md)
 -[---- Inprocess ----]()
 -[---- To Be Done ----]()
 - Customizing iCloud3 Operations
- - [2.1 Configuration Parameters](chapters/9.v2-2.1-config-parms.md)
+
  - [2.2 Attributes](chapters/9.v2-2.2-attributes.md)
  - [2.3 Stationary Zone and the *near Zone* Zone](chapters/9.v2-2.3-special-zones.md)
  - [2.4 Using Sensors](chapters/9.v2-2.4-sensors.md)

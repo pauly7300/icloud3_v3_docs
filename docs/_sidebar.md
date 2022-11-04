@@ -28,6 +28,7 @@
   - [Event Log During Startup](chapters/1.4-evlog-during-startup.md)
 - [Installing and Setting up the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 - [Configuration Parameters](chapters/3.0-config-parms.md)
+- [Other Features](chapters/3.1-other-features.md)
 -[---- Inprocess ----]()
 -[---- To Be Done ----]()
 - Customizing iCloud3 Operations

@@ -29,21 +29,9 @@
 - [Migrating from iCloud3 v2.4.x to v3](chapters/2.0-migrating-v2.4-to-v3.md)
 - [Installing and Setting up the iCloud3 Integration](chapters/2.0-installing-and-configuring.md)
 - [Configuration Screens & Parameters](chapters/3.0-config-parms.md)
-- [Other Topics](chapters/4.0-other-features.md)
--[---- Inprocess ----]()
--[---- To Be Done ----]()
-- Customizing iCloud3 Operations
-
- - [2.2 Attributes](chapters/9.v2-2.2-attributes.md)
- - [2.3 Stationary Zone and the *near Zone* Zone](chapters/9.v2-2.3-special-zones.md)
- - [2.4 Using Sensors](chapters/9.v2-2.4-sensors.md)
- - [2.5 The Event Log](chapters/9.v2-2.5-event-log.md)
-- Support Programs
- - [3.1 Sample Lovelace Cards](chapters/9.v2-3.1-sample-lovelace.md)
- - [3.2 Sample Automation & Scripts](chapters/9.v2-3.2-sample-automation-scripts.md)
- - [3.3 HACS - Home Assistant Component Store](chapters/9.v2-3.3-hacs.md)
- - [3.4 Service Calls](chapters/9.v2-3.4-services.md)
-- Other Information
- - [4.1 Technical Information](chapters/9.v2-4.1-tech-info.md)
- - [4.2 Special Thanks](chapters/9.v2-4.2-special-thanks.md)
-
+- [Other Topics](chapters/3.1-other-topics.md)
+- [Trouble Shooting Problems](chapters/4.0-trouble-shooting.md)
+-[---- Inprocess/To be reviewed ----]()
+- [Entity Attributes](chapters/3.2-attributes.md)
+- [Sample Automation & Scripts](chapters/5.0-sample-automation-scripts.md)
+- [Technical Information](chapters/6.0-tech-info.md)

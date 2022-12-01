@@ -45,7 +45,7 @@ body{
     font-weight: 300;
     text-align: center;
     color: #a5bcd9;
-    border-bottom: 1px solid #a5bcd9;
+    /* border-bottom: 1px solid #a5bcd9; */
     word-wrap: break-word;
     white-space: normal;
     text_decoration: underline #446ca2;

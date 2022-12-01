@@ -20,9 +20,9 @@
   -->
 </nav>
 
-- [Changes and new Features - v3.0.0](change-log-v3.0.0.md)
-- [Migrating from iCloud3 v2.4.x to v3](chapters/2.0-migrating-v2.4-to-v3.md)
--[----------------------------]()
+- [Changes and new Features - v3.0.0](chapters/0.0-change-log-v3.0.0.md)
+- [Migrating from iCloud3 v2.4.x to v3](chapters/0.1-migrating-v2.4-to-v3.md)
+- [———————————————————————————————————]()
 - [Understanding iCloud3](README.md)
   - [iCloud3 Components](chapters/1.1-ic3-components.md)
   - [iCloud & iOS App Location Data](chapters/1.2-icloud-iosapp-loc-data.md)
@@ -32,7 +32,7 @@
 - [Configuration Screens & Parameters](chapters/3.0-config-parms.md)
 - [Other Topics](chapters/3.1-other-topics.md)
 - [Trouble Shooting Problems](chapters/4.0-trouble-shooting.md)
--[---- Inprocess/To be reviewed ----]()
+- [---- Inprocess/To be reviewed ----]()
 - [Entity Attributes](chapters/3.2-attributes.md)
 - [Sample Automation & Scripts](chapters/5.0-sample-automation-scripts.md)
 - [Technical Information](chapters/6.0-tech-info.md)

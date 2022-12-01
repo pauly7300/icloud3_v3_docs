@@ -3,9 +3,9 @@
 
 
 #### iCloud3 is now a Home Assistant Integration
-- Add the iCloud3 Integration and configure all settings on the Devices & Settings > Integration screen.
+- Add the iCloud3 Integration and configure all settings on the *HA Settings >Devices & Settings > Integration* screen.
 - Update parameters with 10 menu-driven configuration screens.
-- Add and configure tracked devices on-line. Changes are immediately applied.
+- Add and configure tracked devices on-line. Changes are applied immediately.
 - No *yaml* parameters, no *config_ic3.yaml*, no platform entries in the HA *configuration.yaml* file.
 - Select the Family Sharing device and/or the Find-my-Friend device providing location data from a list of devices in the iCloud account.
 - Select the iOS App device to monitor from a list of HA mobile_app device_tracker entities. Specify the specific device_tracker entity or the search criteria to use when scanning for an entity.

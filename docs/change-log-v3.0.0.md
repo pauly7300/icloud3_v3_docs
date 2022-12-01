@@ -3,77 +3,64 @@
 
 
 #### iCloud3 is now a Home Assistant Integration
-
-- Add the iCloud3 Integration and configure all settings on the Devices & Settings > Integration screen
-- Update parameters with 10 configuration screens
-- Add and configure tracked devices
-- No *yaml* parameters, no *config_ic3.yaml*, no platform entries in the HA *configuration.yaml* file
-- Select Family Sharing device and Find-my-Friend device providing location data from a list of devices in the iCloud account
-- Select the iOS App device to monitor from a list of HA mobile_app device_tracker entities
-- The iCloud3 devicename is no longer tied to the iCloud device name (it can be anything you want)
-- Actions for tracking control (pause, resume, restart), iCloud operations (Reset iCloud Interface, Enter Verification Code) can be executed
-- Parameters are edited and verified while they are entered
-- Most parameters are selected from lists
+- Add the iCloud3 Integration and configure all settings on the Devices & Settings > Integration screen.
+- Update parameters with 10 menu-driven configuration screens.
+- Add and configure tracked devices on-line. Changes are immediately applied.
+- No *yaml* parameters, no *config_ic3.yaml*, no platform entries in the HA *configuration.yaml* file.
+- Select the Family Sharing device and/or the Find-my-Friend device providing location data from a list of devices in the iCloud account.
+- Select the iOS App device to monitor from a list of HA mobile_app device_tracker entities. Specify the specific device_tracker entity or the search criteria to use when scanning for an entity.
+- The iCloud3 devicename is no longer tied to the iCloud device name (it can be anything you want).
+- Actions that can be selected on the iCloud3 Event Log can also be selected on the Configurator screen. This includes tracking control (pause, resume, restart) and iCloud operations (Reset iCloud Interface, Enter Verification Code).
+- Parameters are edited and verified while they are entered.
+- Most parameters are selected from lists.
 - Restart iCloud3 after the configuration has been changed without restarting Home Assistant
 
 
-
 #### Event Log card
-
-- The iCloud3 Event Log card is automatically added or updated to theLovelace Resourcewhenthe Event Log custom card directory is changed. It does not have to be entered manually
-- Sensor friendly names are easier to read when setting up new cards
-- Reformatted most messages for clarity
-- Easier to understand error messages
-- Status and alert messages are clearer and provide more information
-- Tracking monitor messages show more information
-- More details about location data source helps identify relocation request reasons
-- The location times from the iOS App and iCloud data is now shows the source of the data and how it is being used
+- The Lovelace Resource parameter for the iCloud3 Event Log card is automatically added or updated when when iCloud3 is installed or when the Event Log custom card directory is changed. It does not have to be entered manually.
+- Sensor friendly names are easier to read when setting up new Lovelace cards.
+- Most messages were reformatted to provide more information, avoid duplicated messages and improve clarity.
+- Error are easier to understand, provide corrective instructions, are more visible and are easier to locate.
+- Tracking monitor messages, Status and alert messages are clearer and provide more information.
+- More details are displayed about the location data source to help identify relocation request reasons.
+- Location data/time updates from the iOS App and iCloud data now shows how the data source was selected orrejected. 
 
 #### Track from more than one zone
-
-- Full tracking (distance, travel time, etc.) can be done for more than one zone
-- An alternate ‘home’ zone can be set up if you are away from Home for an extended time (trip, vacation home, parents house, etc.)
-- You can turn off tracking from the real Home zone
-- Multiple zone tracking is configured for an individual device
-- Alternate ‘home’ Zone is config by device or globally
-- A device’s sensors show the tracking information for the ‘Tracked From Zone’ when it is close to the zone or the Home zone when further away
+- Full tracking (distance, travel time, etc.) can be done for more than one zone.
+- An alternate ‘Home’ zone can be set up if you are away from Home for an extended time (trip, vacation home, parents house, etc.)
+- Another zone can be selected as the primary 'Home' zone when you are away from the real 'Home' zone.
+- Multiple zone tracking is configured by device.
+- The alternate ‘Home’ zone is configured by device or globally.
+- A device’s sensors will show the tracking information for the ‘Tracked From Zone’ when it is close to that zone or the Home zone when further away.
 
 #### Starting iCloud3
-
-- Faster Startup - iCloud3 starts up in about 10-seconds once HA loads it
-- Startup messages provide more information about tracked devices, available iCloud Family Sharing and Find-my-Friends devices and these that can be monitored using the iOS App
-- A connection to iCloud account is started during the initial HA startup Stage before iCloud3 its fully loaded
-- Analysis of iCloud location data has been improved, resulting in fewer internet requests and improved response times
-- iCloud3 has been rewritten to use the latest Python programming practices and to take advantage of newer Home Assistant support modules
-- The state values of all of the sensors are restored when starting instead of being located in the Home zone.
+- iCloud3 starts a lot faster, usually witin 10-seconds once after it is loaded by Home Assistant. 
+- Startup messages provide more information about tracked devices, available iCloud Family Sharing and Find-my-Friends devices and those that can be monitored by the iOS App.
+- The internet connection request to the iCloud account and iCloud Location Services is started much earlier in the Home Assistant startup process. It does not wait for iCloud3 to be initialized.
+- Analysis of iCloud location data has been improved, resulting in fewer internet requests and improved response times.
+- iCloud3 has been rewritten to use the latest Python programming practices and to take advantage of newer Home Assistant support modules.
+- The state values of all of the sensors are restored when iCloud3 starts instead of setting the location to the Home zone.
 
 #### Waze History Database
-
-- Results of Waze travel time and distance requests are stored in a local data base for each 10-meter segment of routes traveled. This, over time, greatly reduces the number of internet requests and improved performance
-- The saved locations displayed on a Lovelace Map card
+- Results of Waze travel time and distance requests are stored in a local data base for each 10-meter segment of traveled routes. This, over time, greatly reduces/eliminates the number of internet requests and improved performance, especially in poor cell phone areas or areas with slow internet speeds.
+- The saved locations displayed on a Lovelace Map card.
 
 #### Other New or Enhanced Features
-
-- Pass through zones -The Zone Enter trigger is delayed for 1-minute in case you are just driving through it
-
-- Tacking Modes have been added for each device:
-
-  - Track - Request the devices location when an update is needed
-
-  - Monitor- Update location when another device requests theirs
-  - Inactive - Keep device parameters but do not track it
-
-- Battery Sensors - The device’s battery level is updated every 2-minutes from the iOS App and from iCloud when the location is updated
-- Near-by Devices - Tracking results of near-by devices are used, reducing Waze requests and improving performanc
+- The documentation has been rewritten to conform to the latest Home Assistant versions.
+- If a zone is being driven through without stopping in it, iCloud delays processing the iOS App's Zone Enter trigger for 1-minute (customizable). This delay prevents zone enter/exit automations when the zone is being 'Passed Through'.
+- A device can now be tracked or just monitored:
+  - Track - Request the location when an update is needed based on he distance to the Home (ot tracked-from) zone. (Normal operations).
+  - Monitor- Do not request a location, only update it when another device requests theirs.
+  - Inactive - Keep device parameters but do not track it.
+- The device’s battery level is updated every 2-minutes from the iOS App and from iCloud when the location is updated.
+- The location of all devices is determined. Those close to each other share tracking results, travel times, zone distances, location request intervals, etc. This reduces Waze requests and improves performance.
 
 #### Breaking Changes - The following items have been changed or removed
-
-- The *update* Service Call has been renamed to *action*
-- Some unused Service Call options have been removed (setting intervals, setting zones, changing Waze operations, etc)
-- Near_Zone has been removed
+- The *update* Service Call has been renamed to *action*.
+- Some unused Service Call options have been removed (setting intervals, setting zones, changing Waze operations, etc).
+- Near_Zone has been removed.
 
 ------
-
 Gary Cobb *(aka geekstergary)*
 
 *December, 2022*

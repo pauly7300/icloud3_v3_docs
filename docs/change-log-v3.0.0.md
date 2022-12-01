@@ -8,8 +8,8 @@
 - Add and configure tracked devices on-line. Changes are applied immediately.
 - No *yaml* parameters, no *config_ic3.yaml*, no platform entries in the HA *configuration.yaml* file.
 - Select the Family Sharing device and/or the Find-my-Friend device providing location data from a list of devices in the iCloud account.
-- Select the iOS App device to monitor from a list of HA mobile_app device_tracker entities. Specify the specific device_tracker entity or the search criteria to use when scanning for an entity.
-- The iCloud3 devicename is no longer tied to the iCloud device name (it can be anything you want).
+- Select the iOS App device to monitor from a list of HA mobile_app device_tracker entities. Select the specific device_tracker entity or the search criteria to use when scanning for the entity to monitor.
+- The iCloud3 devicename is no longer tied to the name of the device on the *Settings App > General > About > Name* field (it can be anything you want).
 - Actions that can be selected on the iCloud3 Event Log can also be selected on the Configurator screen. This includes tracking control (pause, resume, restart) and iCloud operations (Reset iCloud Interface, Enter Verification Code).
 - Parameters are edited and verified while they are entered.
 - Most parameters are selected from lists.

@@ -14,7 +14,7 @@ iCloud3 is a device tracker custom component that tracks your iPhones, iPads, Ap
 
 Although Home Assistant has it's own official iCloud component, iCloud3 goes far beyond it's capabilities. The important highlights include:
 
-- **HA Integration** - iCloud3 is a Home Assistant custom integration that is set up and configured from the *HA Settings > Devices & Services > Integrations* screen.
+- **HA Integration** - iCloud3 is a Home Assistant custom integration that is set up and configured from the *HA Settings > Devices & Settings > Integrations* screen.
 - ***The Configurator*** - All of the parameters are updated on configuration screens selected from the *iCloud3 Integrations* entry.
 - **Track devices from several sources** - Family members on the iCloud Account Family Sharing list, those who are sharing their location on FindMy App and devices that have installed the HA Companion App (iOS App) can be tracked.
 - **Actively track a device** - The device will request it's location on a regular interval.

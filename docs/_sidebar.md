@@ -32,7 +32,7 @@
 - [Configuration Screens & Parameters](chapters/3.0-config-parms.md)
 - [Other Topics](chapters/3.1-other-topics.md)
 - [Trouble Shooting Problems](chapters/4.0-trouble-shooting.md)
+- [Sample Automation & Scripts](chapters/5.0-sample-automation-scripts.md)
 - [---- Inprocess/To be reviewed ----]()
 - [Entity Attributes](chapters/3.2-attributes.md)
-- [Sample Automation & Scripts](chapters/5.0-sample-automation-scripts.md)
 - [Technical Information](chapters/6.0-tech-info.md)
